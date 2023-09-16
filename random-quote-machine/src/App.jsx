@@ -40,6 +40,10 @@ function App() {
             </svg> Tweet quote</a>
         </div>
       </div>
+
+      <footer>
+        <p>Created by <a href="https://github.com/pinoen">Emilio Nicolas Pino</a></p>
+      </footer>
     </div>
   )
 }
