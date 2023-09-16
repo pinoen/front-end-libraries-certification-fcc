@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Cutive+Mono&family=Monoton&family=Oxygen+Mono&display=swap');
+
+body {
+  background-color: #edf7f2;
+}
+#title{
+  text-align: center;
+  padding: 20px;
+  text-decoration: underline;
+  color: rgb(176, 65, 65);
+  font-family: 'Monoton', cursive;
+
+}
+
+#container{
+  display: flex;
+}
+
+span{
+  background-color: antiquewhite;
+  padding: 20px;
+  font-size: large;
+}
+
+#editor-container, #preview-container{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 50%;
+  border: 3px solid rgb(176, 65, 65);
+}
+
+#editor{
+  resize: none;
+  background-color: black;
+  color: #fff;
+  overflow: auto;
+  height: 100%;
+  font-size: large;
+  font-family: 'Cutive Mono', monospace;
+}
+
+#preview-container{
+  font-family: 'Oxygen Mono', monospace;
+}
+
+img{
+  padding: 50px;
+  width: 30%;
+}
+
+footer{
+  text-align: center;
+  font-family: 'Cutive Mono', monospace;
+}
+
+@media screen and (max-width: 768px) {
+  #container{
+    flex-direction: column;
+  }
+  #editor-container, #preview-container{
+    width: 100%;
+  }
+  #editor{
+    height: 50vh;
+  }
+  
+}
